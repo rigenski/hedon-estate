@@ -1,0 +1,182 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-heading-1 {
+  font-size: 56px !important;
+}
+
+.text-heading-2 {
+  font-size: 40px !important;
+}
+
+.text-heading-3 {
+  font-size: 36px !important;
+}
+
+.text-heading-4 {
+  font-size: 28px !important;
+}
+
+.text-heading-5 {
+  font-size: 24px !important;
+}
+
+.text-heading-6 {
+  font-size: 20px !important;
+}
+
+.text-heading-7 {
+  font-size: 20px !important;
+}
+
+.text-button {
+  font-size: 16px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .text-heading-1 {
+      font-size: 24px !important;
+  
+  }
+  
+  .text-heading-2 {
+      font-size: 24px !important;
+  
+  }
+  
+  .text-heading-3 {
+      font-size: 22px !important;
+  
+  }
+  
+  .text-heading-4 {
+      font-size: 20px !important;
+  
+  }
+  
+  .text-heading-5 {
+      font-size: 18px !important;
+  
+  }
+  
+  .text-heading-6 {
+      font-size: 16px !important;
+  
+  }
+
+  .text-heading-7 {
+      font-size: 16px !important;
+  
+  }
+}
+
+/* TEXT BODY & PARAGRAPH */
+
+.text-body-1 {
+  font-size: 18px !important;
+}
+
+.text-body-2 {
+  font-size: 18px !important;
+}
+
+.text-body-3 {
+  font-size: 16px !important;
+}
+
+.text-body-4 {
+  font-size: 16px !important;
+}
+
+.text-paragraph-1 {
+  font-size: 14px !important;
+}
+
+.text-paragraph-2 {
+  font-size: 14px !important;
+}
+
+.text-paragraph-3 {
+  font-size: 12px !important;
+}
+
+.text-paragraph-4 {
+  font-size: 12px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .text-body-1 {
+      font-size: 14px !important;
+  
+  }
+  
+  .text-body-2 {
+      font-size: 14px !important;
+  
+  }
+  
+  .text-body-3 {
+      font-size: 12px !important;
+  
+  }
+
+  .text-body-4 {
+      font-size: 12px !important;
+  
+  }
+
+  .text-paragraph-1 {
+      font-size: 12px !important;
+  
+  }
+
+  .text-paragraph-2 {
+      font-size: 12px !important;
+  
+  }
+
+  .text-paragraph-3 {
+      font-size: 12px !important;
+  
+  }
+
+  .text-paragraph-4 {
+      font-size: 12px !important;
+  
+  }
+}
+
+/* text color */
+
+.font-secondary {
+  font-family: 'Montaga', serif;
+}
+
+.text-light {
+  color: #FFFFFF;
+}
+
+.text-dark {
+  color: #2E2E2E;
+}
+
+.text-grey {
+  color: #5F5F5F;
+}
+
+.object-cover {
+  object-fit: cover;
+}
