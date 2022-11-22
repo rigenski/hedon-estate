@@ -50,10 +50,7 @@ export default function Nav() {
               </Link>
             </li>
             <li className="nav-item mx-2 px-2 my-2 mt-md-0 ">
-              <Link
-                className="nav-link px-3 py-2 btn btn-outline-light text-light"
-                href="#"
-              >
+              <Link className="px-3 py-2 btn btn-outline-light " href="#">
                 Contact Us
               </Link>
             </li>

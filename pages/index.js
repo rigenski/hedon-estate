@@ -22,7 +22,7 @@ export default function Home() {
               <div className="my-4 py-4"></div>
               <Link
                 href="/"
-                className="btn btn-lg btn-outline-light px-4 py-2 text-light"
+                className="btn btn-lg btn-outline-light px-4 py-2 "
               >
                 Come, Take a Look !
               </Link>
