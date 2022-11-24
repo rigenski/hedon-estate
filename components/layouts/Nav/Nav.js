@@ -8,7 +8,7 @@ export default function Nav() {
       style={{ background: "rgba(0, 0, 0, 0.5)", zIndex: 100 }}
     >
       <div className="container">
-        <Link className="navbar-brand d-flex align-items-center" href="#">
+        <Link className="navbar-brand d-flex align-items-center" href="/">
           <div className="logo-icon">
             <img src="/assets/img/logo-icon.png" alt="" />
           </div>
@@ -30,29 +30,29 @@ export default function Nav() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item mx-2 px-2">
-              <Link className="nav-link text-light active" href="#">
+              <Link className="nav-link text-light active" href="/">
                 HOME
               </Link>
             </li>
             <li className="nav-item mx-2 px-2">
-              <Link className="nav-link text-light" href="#">
+              <a className="nav-link text-light" href="#event">
                 EVENTS & PROMO
-              </Link>
+              </a>
             </li>
             <li className="nav-item mx-2 px-2">
-              <Link className="nav-link text-light" href="#">
+              <a className="nav-link text-light" href="#facility">
                 FACILLITY
-              </Link>
+              </a>
             </li>
             <li className="nav-item mx-2 px-2">
-              <Link className="nav-link text-light" href="#">
+              <a className="nav-link text-light" href="#partner">
                 OUR PARTNERS
-              </Link>
+              </a>
             </li>
             <li className="nav-item mx-2 px-2 my-2 mt-md-0 ">
-              <Link className="px-3 py-2 btn btn-outline-light " href="#">
+              <a className="px-3 py-2 btn btn-outline-light" href="#contact">
                 Contact Us
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

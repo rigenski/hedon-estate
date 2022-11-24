@@ -41,15 +41,26 @@
     }
 }
 
+/* 
+    HOME
+*/
+
 /* hero */
 
 .hero {
     padding-top: 84px;
     height: 100vh;
-    background-image: url('/assets/img/hero/hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.home .hero {
+    background-image: url('/assets/img/home/hero/hero-bg.png');
+}
+
+.facility .hero {
+    background-image: url('/assets/img/facility/lounge-room.png');
 }
 
 .hero-title {
@@ -112,7 +123,7 @@
 
 .contact {
     height: 500px;
-    background-image: url('/assets/img/contact/contact-bg.png');
+    background-image: url('/assets/img/home/contact/contact-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,4 +147,42 @@
 
 .footer .social-icon img {
     height: 24px;
+}
+
+
+/* 
+    MENU
+*/
+
+/* hero */
+
+.banner {
+    padding-top: 84px;
+    height: 432px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-title {
+    font-size: 52px !important; 
+}
+
+.menu .banner {
+    background-image: url('/assets/img/menu/banner/banner-bg.png');
+}
+
+.reservation .banner {
+    background-image: url('/assets/img/reservation/banner/banner-bg.png');
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+        height: 280px;
+    }
+
+    .banner-title {
+        font-size: 32px !important;
+    }
 }

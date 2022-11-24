@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -181,3 +182,20 @@ a {
   object-fit: cover;
 }
 
+.border-grey {
+  border-color: #7A7A7A !important;
+}
+
+.form-control::placeholder {
+  color: #2E2E2E;
+}
+
+.bg-app {
+  background: linear-gradient(93.66deg, #754600 0.71%, #906444 100%);
+}
+
+.text-app {
+  background: linear-gradient(93.66deg, #754600 0.71%, #906444 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
