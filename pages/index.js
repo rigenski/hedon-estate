@@ -90,7 +90,10 @@ export default function Home() {
               </h5>
             </div>
             <div className="row">
-              <Link className="col-12 col-md-6 col-lg-4" href="/facility">
+              <Link
+                className="col-12 col-md-6 col-lg-4"
+                href="/facility/multifunction-hall"
+              >
                 <div className="facilities-item mb-3 mb-lg-4 position-relative">
                   <div className="facilities-bg">
                     <img
@@ -104,7 +107,10 @@ export default function Home() {
                   </h5>
                 </div>
               </Link>
-              <Link className="col-12 col-md-6 col-lg-4" href="/facility">
+              <Link
+                className="col-12 col-md-6 col-lg-4"
+                href="/facility/class-room"
+              >
                 <div className="facilities-item mb-3 mb-lg-4 position-relative">
                   <div className="facilities-bg">
                     <img
@@ -118,7 +124,10 @@ export default function Home() {
                   </h5>
                 </div>
               </Link>
-              <Link className="col-12 col-md-6 col-lg-4" href="/facility">
+              <Link
+                className="col-12 col-md-6 col-lg-4"
+                href="/facility/studio-room"
+              >
                 <div className="facilities-item mb-3 mb-lg-4 position-relative">
                   <div className="facilities-bg">
                     <img
@@ -132,7 +141,10 @@ export default function Home() {
                   </h5>
                 </div>
               </Link>
-              <Link className="col-12 col-md-6 col-lg-8" href="/facility">
+              <Link
+                className="col-12 col-md-6 col-lg-8"
+                href="/facility/estate-cafe"
+              >
                 <div className="facilities-item mb-3 mb-lg-4 position-relative">
                   <div className="facilities-bg">
                     <img
@@ -146,7 +158,10 @@ export default function Home() {
                   </h5>
                 </div>
               </Link>
-              <Link className="col-12 col-md-6 col-lg-4" href="/facility">
+              <Link
+                className="col-12 col-md-6 col-lg-4"
+                href="/facility/lounge-room"
+              >
                 <div className="facilities-item mb-3 mb-lg-4 position-relative">
                   <div className="facilities-bg">
                     <img
