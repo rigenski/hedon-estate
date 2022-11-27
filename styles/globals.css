@@ -178,6 +178,10 @@ a {
   color: #5F5F5F;
 }
 
+.text-pagination {
+  color: #4A60A1;
+}
+
 .object-cover {
   object-fit: cover;
 }
